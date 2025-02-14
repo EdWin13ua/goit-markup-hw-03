@@ -1,0 +1,235 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434455;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* #region Header */
+.header {}
+
+.header-nav {}
+
+.header-logo {font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+
+.logo {font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;}
+
+.header-nav-list {}
+
+.header-nav-list-item {}
+
+.header-nav-link {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+.header-nav-link:hover, .header-nav-link:focus {
+        color: #404bbf;
+    }
+
+.header-contact {
+    font-style: normal;
+}
+
+.mail-tel {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+}
+
+.mail-tel:hover, .mail-tel:focus {
+    color: #404bbf;
+}
+
+/* #endregion Header */
+
+/* #region Hero */
+.hero {
+    background: #2e2f42;
+}
+
+.hero-text {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;}
+
+.hero-btn {
+    font-family: inherit;
+    color: #fff;
+    background: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #404bbf;
+    }
+/* #endregion Hero */
+
+/* #region Strategy */
+
+.features {}
+
+.features-hide {}
+
+.features-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.strategy-list {}
+
+.features-list-item {}
+/* #endregion Strategy */
+
+/* #region Team */
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-logo {background: #fff;}
+
+.team-member {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-specialty {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team {}
+
+.team-list {}
+
+.team-list-item {
+    background: #fff;
+}
+/* #endregion Team */
+
+/* #region Portfolio */
+
+.portfolio {}
+
+.portfolio-list {}
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-list-item {
+    background: #fff
+}
+
+.portfolio-item {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.portfolio-offer {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* #endregion Portfolio */
+
+/* #region Footer */
+.end {
+    background: #2e2f42;
+}
+
+.end-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+
+.end-logo-span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.end-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;}
+
+/* #endregion Footer */
