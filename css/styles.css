@@ -156,7 +156,8 @@ img {
     text-align: center;
     color: #fff;
     max-width: 496px;
-    margin: 0 auto 48px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -169,8 +170,9 @@ img {
     padding: 15px 30px;
     border: none;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -189,7 +191,9 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
 
 .features-text {
     font-weight: 400;
@@ -199,12 +203,23 @@ img {
     color: #434455;
 }
 
-.strategy-list {}
+.strategy-list {
+    display: flex;
+}
 
 .features-list-item {}
 /* #endregion Strategy */
 
 /* #region Team */
+
+.team-paragraph {
+max-width: 162;
+margin: 0 auto 72px;
+}
+
+.team-list {
+    display: flex;
+}
 
 .team-title {
     font-size: 36px;
