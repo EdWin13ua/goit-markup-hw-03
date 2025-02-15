@@ -3,7 +3,7 @@ body {
     background-color: #fff;
     color: #434455;
 }
-
+/* #region Reset */
 a {
     text-decoration: none;
 }
@@ -20,20 +20,53 @@ button {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
 }
+/* #endregion Reset */
 
-.container { 
+.container {
 max-width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
 }
 
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* #region Header */
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc;
 
-.header-nav {}
+}
 
-.header-logo {font-family: "Raleway", sans-serif;
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -41,7 +74,13 @@ margin: 0 auto;
     text-transform: uppercase;
     color: #4d5ae5;}
 
-.logo {font-family: "Raleway", sans-serif;
+.header-nav-logo {
+    padding: 25.5px 0;
+    margin-right: 76px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -49,7 +88,11 @@ margin: 0 auto;
     text-transform: uppercase;
     color: #2e2f42;}
 
-.header-nav-list {}
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .header-nav-list-item {}
 
@@ -57,7 +100,10 @@ margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    padding: 25.5px 0;
+    display: block;
+}
 
 .header-nav-link:hover, .header-nav-link:focus {
         color: #404bbf;
@@ -65,6 +111,13 @@ margin: 0 auto;
 
 .header-contact {
     font-style: normal;
+    margin-left: auto;
+}
+
+.header-contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .mail-tel {
@@ -74,6 +127,8 @@ margin: 0 auto;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            padding: 24px 0;
+            display: block;
 }
 
 .mail-tel:hover, .mail-tel:focus {
@@ -85,6 +140,7 @@ margin: 0 auto;
 /* #region Hero */
 .hero {
     background: #2e2f42;
+    padding: 188px 0;
 }
 
 .hero-text {
@@ -93,7 +149,10 @@ margin: 0 auto;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;}
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto 48px;
+}
 
 .hero-btn {
     font-family: inherit;
@@ -101,7 +160,13 @@ margin: 0 auto;
     background: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em}
+    letter-spacing: 0.04em;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+
+}
 
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404bbf;
