@@ -79,6 +79,7 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-logo {
