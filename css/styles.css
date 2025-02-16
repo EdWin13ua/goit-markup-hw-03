@@ -88,10 +88,11 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;}
+    color: #4d5ae5;
+    padding: 24px 0;
+}
 
 .header-nav-logo {
-    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -108,12 +109,12 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-nav-list-item {}
 
-.header-nav-link {font-weight: 500;
+.header-nav-link {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -123,7 +124,7 @@ img {
 }
 
 .header-nav-link:hover, .header-nav-link:focus {
-        color: #404bbf;
+    color: #404bbf;
     }
 
 .header-contact {
@@ -138,14 +139,14 @@ img {
 }
 
 .mail-tel {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #434455;
-            padding: 24px 0;
-            display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding: 24px 0;
+    display: block;
 }
 
 .mail-tel:hover, .mail-tel:focus {
